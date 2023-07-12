@@ -4,8 +4,8 @@
 Necessary packages to complete tasks
 
 ```python
-from cmdstanpy import CmdStanModel
-
+import cmdstanpy
+cmdstanpy.install_cmdstan(compiler=True)
 
 import arviz as az
 import numpy as np
